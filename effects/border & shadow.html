@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Border/Shadow </title>
+	<style type="text/css">
+		.block
+		{
+			height: 200px;
+			width: 200px;
+			background-image: url(pic1.jpg);
+			box-shadow: 5px 5px 2px 2px grey;
+			margin:0 auto;
+			transition: all 1s ease;
+			/*overflow: hidden;*/
+		}
+		/*.image
+		{
+			background-image: url(pic1.jpg);
+			height: 200px;
+			width: 200px;
+			transition: all 1s ease;
+		}*/
+		.block:hover /*.image*/
+		{
+			border-radius: 50%;
+			box-shadow: 0 0 4px 4px red;
+			/*transform: scale(1.2);*/
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+  <div class="block">
+  	<!--<div class="image"></div>-->
+  </div>
+</body>
+</html>

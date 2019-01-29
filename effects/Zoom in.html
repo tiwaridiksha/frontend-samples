@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zoom in</title>
+	<style type="text/css">
+		
+		.container
+		{
+			
+			overflow: hidden;
+			height: 200px;
+			width:200px;
+			margin: 0 auto;
+			border:solid 1px;
+		}
+		.image
+		{
+			background-image: url(pic1.jpg);
+			height: 200px;
+			width: 200px;
+			transition: all 1s ease;
+		}
+		.container:hover .image
+		{
+			transform: scale(1.2);
+			cursor: pointer;
+		}
+
+	</style>
+</head>
+<body>
+ <div class="container">
+ 	<div class="image"></div>
+ </div>
+</body>
+</html>
