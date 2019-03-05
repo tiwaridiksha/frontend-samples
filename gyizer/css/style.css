@@ -1,0 +1,269 @@
+*,html,body {
+	margin: 0;
+	padding:0;
+}
+.nopadding {
+	margin: 0 !important;
+	padding:0 !important; 
+}
+nav {
+	background-color: white !important;
+}
+ul {
+	list-style: none;
+}
+ul li {
+	display: inline-block;
+}
+nav ul li a {
+	padding:10px 15px 0 30px; 
+	color: black;
+	font-weight: bold;
+	transition: all 0.5s ease-in;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	color: red;
+}
+.wmark {
+	color:#d8ddde;
+	font-weight: bold;
+	font-size: 250px;
+	padding-left:60px;
+	opacity: 0.1;
+	position: absolute;
+}
+p{
+	color: #31d5f3;
+	font-size: 35px; 
+}
+.fearless {
+	padding:230px 0 0 260px;
+}
+.blue {
+	padding:120px 0 0 122px;
+}
+.feature {
+	font-size: 25px;
+	padding:50px 0 0 600px;  
+}
+.btn {
+	width: 120px;
+	height: 40px;
+	border: solid 4px black !important;
+	margin: 40px 65px 10px 80px;
+	font-size: 20px !important;
+}
+.banner {
+	width: 1349px;
+	height: 800px;
+	margin: 50px 0 0 0;
+	background-repeat: no-repeat; 
+	position: relative;
+
+}
+.smoke {
+	width: 100%;
+	height: 350px;
+	position: absolute;
+	margin-top: 450px;
+}
+.box_1 {
+	width: 450px;
+	height: 500px;
+	background-color:#f1f6f9;
+	border: solid 18px white;
+	position: absolute;
+	margin: 200px 0 0 600px;
+	text-align: center; 
+}
+.box_2 {
+	width: 200px;
+	height: 450px;
+	background-color: #f8d805;
+	position: absolute;
+	margin: 250px 0 0 865px; 
+}
+.read {
+	width: 160px;
+	height: 50px;
+	font-size: 2px;
+	background-color: #31d5f3 !important;
+	color: white !important;
+	margin: 160px 0 0 740px;
+	border:solid 4px #31d5f3 !important;  
+}
+.videos	{
+	font-size: 300px !important; 
+}
+.story {
+	font-size: 45px;
+	padding: 180px 0 0 250px;
+}
+.play_1 {
+	width: 650px;
+	height: 350px;
+	margin: 90px 0 0 50px; 
+}
+.video_1 {
+	padding: 190px 0 0 90px;
+}
+.play_2 {
+	width: 310px;
+	height: 160px;
+	margin: 95px 50px 0 30px; 
+}
+.play_3 {
+	width: 310px;
+	height: 160px;
+	margin: 95px 0px 0px 165px; 
+}
+.play_4 {
+	width: 310px;
+	height: 160px;
+	margin-top: 277px; 
+}
+.play_5 {
+	width: 310px;
+	height: 160px;
+	margin: 277px 290px 0px 0px;
+	float: right; 
+}
+.grey_row {
+	width: 1349px;
+	height: 50px;
+	background-color: #eeeeee;
+	margin-top: 230px; 
+}
+.square	{
+	width: 150px;
+	height: 180px;
+	border:solid 3px #f8d805;
+	margin: 180px 0 0 270px;
+	position: absolute;  
+}
+.square_1 {
+	width: 150px;
+	height: 180px;
+	border:solid 3px black;
+	margin: 140px 0 0 500px;
+	position: absolute;  
+}
+.square_2 {
+	width: 150px;
+	height: 180px;
+	border:solid 3px #f8d805;
+	margin: 180px 0 0 730px;
+	position: absolute;
+}	
+.square_3 {
+	width: 150px;
+	height: 180px;
+	border:solid 3px black;
+	margin: 140px 0 0 950px;
+	position: absolute;  
+}
+img {
+	padding:25px 0 0 50px;
+}
+h2 {
+	padding-left: 30px;
+}
+h4{
+	padding-left: 40px;
+}
+.service {
+	font-size: 40px;
+	color:#31d5f3;
+	padding: 120px 50px 0 550px;
+	position: absolute; 
+}
+.gblock_1 {
+	padding-top: 320px
+}
+h3 {
+	font-size: 20px !important;
+	padding: 10px 0 0px 50px;
+}
+h5{
+	padding-left: 50px;
+}
+.tmonial {
+	color:#d8ddde;
+	font-weight: bold;
+	font-size: 180px;
+	padding-left:60px;
+	opacity: 0.1;
+	position: absolute;
+}
+.base {
+	width: 1349px;
+	height: 400px;
+	background-repeat: no-repeat;
+	margin-top:140px;
+}	  
+#myCarousel {
+	height: 400px;
+	background-color: #dbd6d6;
+	padding: 50px 0 0 575px;
+}
+h1 {
+	padding-left:45px; 
+}
+.name {
+	padding: 20px 0 0 55px;
+	font-size: 18px;
+}
+.explore {
+	padding: 170px 0 0 450px;
+	font-size: 40px;
+}
+.thumbnail_1 {
+	margin: 40px 40px 0 0px;
+}
+.thumbnail2
+  {
+    height: 226px;
+    width: 340px;
+    position: absolute;
+    background-color:black;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    left: 116px;
+    top: 65px;
+  }
+.thumbnail_1 img
+  {
+    height: 250px;
+    width: 390px;
+    position: absolute; 
+  } 
+.thumbnail_1 img:hover
+  {
+    transition: height 0.5s  linear;
+  }
+.thumbnail_1:hover .thumbnail2
+  {
+    opacity: 0.5;
+    transform: translateX(-50px);
+  }   
+.effect
+  {
+    height: 50px;
+    width: 90px;
+    background-color: black;
+    margin: 30px 0 0 32px;
+    transition: all 1s 0.5s linear;
+  } 
+.thumbnail_1:hover .effect
+  {
+   border:2px solid white;
+   height: 165px;
+   width: 260px;
+   transform: translate(5px);
+  }
+ .content {
+ 	color: white;
+ 	padding: 20px 0 0 10px;
+ } 
+
